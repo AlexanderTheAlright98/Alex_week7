@@ -25,7 +25,7 @@ public class MainManager : MonoBehaviour
     }
     private void Update()
     {
-        timeElapsed = Time.time;     
+        timeElapsed += Time.deltaTime;     
     }
 
     [System.Serializable]

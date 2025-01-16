@@ -19,7 +19,7 @@ public class ResourcePile : Building
         {
             if (value < 0)
             {
-                Debug.Log("Productivity speed cannot be less than zero!");
+                Debug.LogError("Productivity speed cannot be less than zero!");
             }
             else
             {
