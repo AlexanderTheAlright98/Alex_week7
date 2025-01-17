@@ -28,7 +28,10 @@ public class StartManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        userName = nameInput.text;
+        if (SceneManager.GetActiveScene().name == "menu")
+        {
+            userName = nameInput.text;
+        }
     }
     public void startGame()
     {

@@ -61,7 +61,7 @@ public class MainManager : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
             }
 
             if (PlayerPrefs.GetInt("Highscore") < m_Points)
